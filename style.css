@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url('1.jpg');  */
+    background-size: cover;
+    background-position: center;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+
+}
+
+#container{
+    position: relative;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5px;
+    overflow: hidden;
+
+}
+
+#yes{
+    background-color: rgb(225,0,0);
+    border: none;
+    width: 90px;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 8px;
+    cursor: pointer;
+    transition: top 0.5,left 0.5s;
+    margin-top: 20px;
+    color:#fff;
+}
+
+/* img{
+    width:50px;
+    height:50px;
+} */
+
+#image {
+    position: absolute;
+    top: 50%; /* Align to the middle vertically */
+    right: 70px; /* Adjust the position from the right */
+    transform: translateY(-50%); /* Center vertically */
+    width: 200px; /* Adjust the width of the image */
+    height: 300px; /* Maintain aspect ratio */
+    
+}
+
+#target{
+    position: absolute;
+    left:200px;
+    background-color: rgba(0,89,225);
+    border: none;
+    width:90px;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: top 0.5,left 0.5s;
+    color: #fff;
+
+}
+
+@media (max-width: 768px) {
+    
+    .box {
+        width: 80%;
+    }
+
+}
+
